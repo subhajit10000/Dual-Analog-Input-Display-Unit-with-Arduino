@@ -2,3 +2,5 @@ Dual-Analog-Input-Display-Unit with Arduino is an embedded systems project desig
 
 The system is built around an Arduino board, which serves as the central processing unit. Two analog sensors or variable input devices, such as potentiometers, temperature sensors, or light-dependent resistors (LDRs), are connected to the analog input pins of the Arduino. The microcontroller continuously reads the voltage levels from both inputs using its built-in Analog-to-Digital Converter (ADC). These analog signals, which typically range from 0 to 5 volts, are converted into digital values between 0 and 1023. The processed values are then displayed on an LCD or OLED display, allowing users to observe both inputs in real time.
 
+The project highlights the capability of Arduino to handle multiple sensor inputs efficiently while maintaining fast response times. The display is updated continuously, ensuring that changes in either analog input are reflected immediately. This real-time monitoring feature makes the project useful for applications such as environmental monitoring, equipment testing, voltage measurement, and educational demonstrations of analog signal processing.
+
